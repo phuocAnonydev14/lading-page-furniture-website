@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/cart.css" />
+  </head>
+  <body>
+    <div class="containers">
+      <div id="header"></div>
+      <img src="/images/cart page.png" alt="" />
+      <div class="cart">
+        <div style="display: flex; gap: 40px">
+          <div>
+            <div class="cartHeader">
+              <p style="width: 200px">Product</p>
+              <p style="width: 140px">Price</p>
+              <p>Quantity</p>
+              <p style="width: 200px">Subtotal</p>
+            </div>
+            <div style="display: flex; gap: 10px; align-items: center">
+              <img src="/images/Asgaard sofa 5.png" alt="" />
+              <p
+                style="
+                  font-family: Poppins;
+                  font-size: 16px;
+                  font-weight: 400;
+                  line-height: 24px;
+                  text-align: left;
+                  color: rgba(159, 159, 159, 1);
+                  padding-right: 30px;
+                "
+              >
+                Asgaard sofa
+              </p>
+              <p
+                style="
+                  font-family: Poppins;
+                  font-size: 16px;
+                  font-weight: 400;
+                  line-height: 24px;
+                  text-align: left;
+                  color: rgba(159, 159, 159, 1);
+                  padding-right: 60px;
+                "
+              >
+                Rs. 250,000.00
+              </p>
+              <p
+                style="
+                  padding: 8px 14px;
+                  border-radius: 8px;
+                  border: 1px solid black;
+                  height: max-content;
+                  margin-right: 50px;
+                "
+              >
+                1
+              </p>
+              <p style="font-weight: 500; padding-right: 60px">
+                Rs. 250,000.00
+              </p>
+
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 28 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M23.625 7H20.125V4.8125C20.125 3.84727 19.3402 3.0625 18.375 3.0625H9.625C8.65977 3.0625 7.875 3.84727 7.875 4.8125V7H4.375C3.89102 7 3.5 7.39102 3.5 7.875V8.75C3.5 8.87031 3.59844 8.96875 3.71875 8.96875H5.37031L6.0457 23.2695C6.08945 24.202 6.86055 24.9375 7.79297 24.9375H20.207C21.1422 24.9375 21.9105 24.2047 21.9543 23.2695L22.6297 8.96875H24.2812C24.4016 8.96875 24.5 8.87031 24.5 8.75V7.875C24.5 7.39102 24.109 7 23.625 7ZM18.1562 7H9.84375V5.03125H18.1562V7Z"
+                  fill="#B88E2F"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            style="
+              background-color: rgba(249, 241, 231, 1);
+              padding: 20px 50px;
+              text-align: center;
+              flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            "
+          >
+            <h1 style="color: rgba(0, 0, 0, 1); margin-bottom: 40px">
+              Cart Totals
+            </h1>
+            <div style="display: flex; gap: 30px">
+              <p>Subtotal</p>
+              <p style="color: rgba(159, 159, 159, 1)">Rs. 250,000.00</p>
+            </div>
+            <div style="display: flex; gap: 30px; margin-top: 20px">
+              <p>Total</p>
+              <p
+                style="
+                  color: rgba(159, 159, 159, 1);
+                  color: rgba(184, 142, 47, 1);
+                  font-size: 20px;
+                "
+              >
+                Rs. 250,000.00
+              </p>
+            </div>
+            <div
+              style="
+                border: 1px solid black;
+                border-radius: 8px;
+                padding: 10px 20px;
+                display: inline-block;
+                margin-top: 40px;
+              "
+            >
+              <a href="/checkout.html">Check Out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer"></div>
+    </div>
+  </body>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
+  <script src="/js/slide.js"></script>
+</html>

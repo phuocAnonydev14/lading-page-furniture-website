@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  background-color: white;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.headerText {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;  
+}
+
+.headerCart {
+  background: rgba(241, 221, 201, 1);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+p {
+  margin-bottom: 0px !important;
+}
+
+a {
+  text-decoration: unset !important;
+  color: inherit !important;
+}
+
+
+input[type="radio"]{
+    margin-right: 10px;
+}
+
+.bannerCommon{
+  background-image: url('/images/bg-banner.png');
+  width: 100%;
+  background-position: center;
+  height:  300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

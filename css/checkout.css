@@ -1,0 +1,35 @@
+.checkoutWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkoutBox {
+  display: flex;
+  gap: 100px;
+  width: 1250px;
+  margin-top: 50px;
+}
+
+.checkoutBox .rightContent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+input, select,textarea{
+    outline: none;
+    border: 1px solid rgba(159, 159, 159, 1);
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.leftContent{
+    width: 50%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/detail.css" />
+  </head>
+  <body>
+    <div class="containers">
+      <div id="header"></div>
+      <div class="breadcrumb">
+        Home
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 20 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M6 15L11 10L6 5L7 3L14 10L7 17L6 15Z" fill="black" />
+        </svg>
+        Shop
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 20 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M6 15L11 10L6 5L7 3L14 10L7 17L6 15Z" fill="black" />
+        </svg>
+        <svg
+          width="2"
+          height="37"
+          viewBox="0 0 2 37"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line x1="1" x2="1" y2="37" stroke="#9F9F9F" stroke-width="2" />
+        </svg>
+        <span style="font-weight: 500">Asgaard sofa</span>
+      </div>
+      <div class="pDetail">
+        <div class="" style="display: flex; gap: 20px; align-items: flex-start">
+          <div class="smallImg">
+            <img src="/images/pdetail1.png" alt="" class="watchList" onclick="onChooseImage(0)"/>
+            <img src="/images/pdetail2.png" alt="" class="watchList" onclick="onChooseImage(1)"/>
+            <img src="/images/pdetail3.png" alt="" class="watchList" onclick="onChooseImage(2)"/>
+            <img src="/images/pdetail4.png" alt="" class="watchList" onclick="onChooseImage(3)"/>
+          </div>
+          <div class="mainImg">
+            <img  id="watchZoom" src="/images/pdetail1.png" alt="" />
+          </div>
+        </div>
+        <div class="content">
+          <p
+            style="
+              font-family: Poppins;
+              font-size: 42px;
+              font-weight: 400;
+              line-height: 63px;
+              text-align: left;
+            "
+          >
+            Asgaard sofa
+          </p>
+          <p style="color: rgba(159, 159, 159, 1)">Rs. 250,000.00</p>
+          <div style="display: flex; gap: 10px; align-items: center">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 1L13 7L19 7.75L14.88 12.37L16 19L10 16L4 19L5.13 12.37L1 7.75L7 7L10 1Z"
+                fill="#FFC700"
+              />
+            </svg>
+
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 1L13 7L19 7.75L14.88 12.37L16 19L10 16L4 19L5.13 12.37L1 7.75L7 7L10 1Z"
+                fill="#FFC700"
+              />
+            </svg>
+
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 1L13 7L19 7.75L14.88 12.37L16 19L10 16L4 19L5.13 12.37L1 7.75L7 7L10 1Z"
+                fill="#FFC700"
+              />
+            </svg>
+
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 1L13 7L19 7.75L14.88 12.37L16 19L10 16L4 19L5.13 12.37L1 7.75L7 7L10 1Z"
+                fill="#FFC700"
+              />
+            </svg>
+            <svg
+              style="margin-inline: 20px"
+              width="2"
+              height="37"
+              viewBox="0 0 2 37"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <line x1="1" x2="1" y2="37" stroke="#9F9F9F" stroke-width="2" />
+            </svg>
+            <span
+              style="
+                color: rgba(159, 159, 159, 1);
+                font-family: Poppins;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 19.5px;
+                text-align: left;
+              "
+              >5 Customer Review</span
+            >
+          </div>
+          <p
+            style="
+              font-family: Poppins;
+              font-size: 13px;
+              font-weight: 400;
+              line-height: 19.5px;
+              text-align: left;
+              color: rgba(0, 0, 0, 1);
+              width: 70%;
+              margin-bottom: 20px;
+            "
+          >
+            Setting the bar as one of the loudest speakers in its class, the
+            Kilburn is a compact, stout-hearted hero with a well-balanced audio
+            which boasts a clear midrange and extended highs for a sound.
+          </p>
+          <div>
+            <p style="color: rgba(159, 159, 159, 1); margin-bottom: 20px">
+              Size
+            </p>
+            <div style="display: flex; gap: 20px">
+              <p
+                style="
+                  padding: 14px 18px;
+                  border-radius: 8px;
+                  background-color: rgba(184, 142, 47, 1);
+                "
+              >
+                L
+              </p>
+              <p
+                style="
+                  padding: 14px;
+                  border-radius: 8px;
+                  background-color: rgba(249, 241, 231, 1);
+                "
+              >
+                XL
+              </p>
+              <p
+                style="
+                  padding: 14px;
+                  border-radius: 8px;
+                  background-color: rgba(249, 241, 231, 1);
+                "
+              >
+                XS
+              </p>
+            </div>
+          </div>
+          <div>
+            <p style="color: rgba(159, 159, 159, 1); margin-bottom: 20px">
+              Color
+            </p>
+            <div style="display: flex; gap: 20px">
+              <div
+                style="
+                  width: 30px;
+                  height: 30px;
+                  border-radius: 50%;
+                  background-color: rgba(129, 109, 250, 1);
+                "
+              ></div>
+              <div
+                style="
+                  width: 30px;
+                  height: 30px;
+                  border-radius: 50%;
+                  background-color: rgba(0, 0, 0, 1);
+                "
+              ></div>
+              <div
+                style="
+                  width: 30px;
+                  height: 30px;
+                  border-radius: 50%;
+                  background-color: rgba(184, 142, 47, 1);
+                "
+              ></div>
+            </div>
+          </div>
+          <div style="display: flex; gap: 30px">
+            <div class="calc">
+              <span>-</span>
+              <span>1</span>
+              <span>+</span>
+            </div>
+            <div class="calc" style="padding-inline: 20px">
+              <span>Add to cart</span>
+            </div>
+            <div class="calc" style="padding-inline: 20px; gap: 10px">
+              <span>+</span>
+              <span>Compare</span>
+            </div>
+          </div>
+          <div class="divider" style="margin-block: 10px"></div>
+          <div style="display: flex; color: rgba(159, 159, 159, 1)">
+            <p style="width: 100px">SKU</p>
+            <p>: SS001</p>
+          </div>
+          <div style="display: flex; color: rgba(159, 159, 159, 1)">
+            <p style="width: 100px">Category</p>
+            <p>: Sofas</p>
+          </div>
+          <div style="display: flex; color: rgba(159, 159, 159, 1)">
+            <p style="width: 100px">Tags</p>
+            <p>: Sofa, Chair, Home, Shop</p>
+          </div>
+          <div style="display: flex; color: rgba(159, 159, 159, 1)">
+            <p style="width: 100px">Share</p>
+            <p style="display: flex; gap: 10px">
+              :
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_117_920)">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 10.0558C0 15.0275 3.61083 19.1617 8.33333 20V12.7775H5.83333V10H8.33333V7.7775C8.33333 5.2775 9.94417 3.88917 12.2225 3.88917C12.9442 3.88917 13.7225 4 14.4442 4.11083V6.66667H13.1667C11.9442 6.66667 11.6667 7.2775 11.6667 8.05583V10H14.3333L13.8892 12.7775H11.6667V20C16.3892 19.1617 20 15.0283 20 10.0558C20 4.525 15.5 0 10 0C4.5 0 0 4.525 0 10.0558Z"
+                    fill="black"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_117_920">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0.833252 2.365C0.833252 1.95877 0.994624 1.56919 1.28187 1.28195C1.56911 0.994702 1.9587 0.83333 2.36492 0.83333H17.6333C17.8346 0.833001 18.034 0.872383 18.22 0.949219C18.4061 1.02606 18.5752 1.13884 18.7176 1.28111C18.8601 1.42338 18.973 1.59235 19.0501 1.77834C19.1271 1.96433 19.1667 2.16368 19.1666 2.365V17.6333C19.1668 17.8347 19.1273 18.0341 19.0504 18.2202C18.9735 18.4063 18.8606 18.5753 18.7183 18.7178C18.5759 18.8602 18.4069 18.9731 18.2209 19.0502C18.0348 19.1272 17.8354 19.1668 17.6341 19.1667H2.36492C2.16371 19.1667 1.96447 19.127 1.77858 19.05C1.5927 18.973 1.42381 18.8601 1.28157 18.7178C1.13933 18.5754 1.02653 18.4065 0.949604 18.2206C0.87268 18.0346 0.833143 17.8354 0.833252 17.6342V2.365ZM8.08992 7.82333H10.5724V9.07C10.9308 8.35333 11.8474 7.70833 13.2249 7.70833C15.8658 7.70833 16.4916 9.13583 16.4916 11.755V16.6067H13.8191V12.3517C13.8191 10.86 13.4608 10.0183 12.5508 10.0183C11.2883 10.0183 10.7633 10.9258 10.7633 12.3517V16.6067H8.08992V7.82333ZM3.50659 16.4925H6.17992V7.70833H3.50659V16.4917V16.4925ZM6.56242 4.84333C6.56746 5.07222 6.52673 5.29982 6.44262 5.51276C6.35851 5.7257 6.23271 5.91969 6.07261 6.08336C5.91251 6.24702 5.72133 6.37706 5.5103 6.46584C5.29926 6.55461 5.07262 6.60035 4.84367 6.60035C4.61472 6.60035 4.38808 6.55461 4.17704 6.46584C3.966 6.37706 3.77483 6.24702 3.61473 6.08336C3.45463 5.91969 3.32883 5.7257 3.24472 5.51276C3.16061 5.29982 3.11988 5.07222 3.12492 4.84333C3.13481 4.39404 3.32024 3.96649 3.64149 3.65224C3.96274 3.33798 4.39427 3.16201 4.84367 3.16201C5.29307 3.16201 5.7246 3.33798 6.04585 3.65224C6.3671 3.96649 6.55253 4.39404 6.56242 4.84333Z"
+                  fill="black"
+                />
+              </svg>
+
+              <svg
+                width="23"
+                height="23"
+                viewBox="0 0 23 23"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.5 0.5625C5.45996 0.5625 0.5625 5.45996 0.5625 11.5C0.5625 17.54 5.45996 22.4375 11.5 22.4375C17.54 22.4375 22.4375 17.54 22.4375 11.5C22.4375 5.45996 17.54 0.5625 11.5 0.5625ZM16.7563 8.80713C16.7637 8.92188 16.7637 9.0415 16.7637 9.15869C16.7637 12.7427 14.0342 16.8711 9.04639 16.8711C7.5083 16.8711 6.08252 16.4243 4.88135 15.6553C5.10107 15.6797 5.31104 15.6895 5.53565 15.6895C6.80518 15.6895 7.97217 15.2598 8.90234 14.5322C7.71094 14.5078 6.70996 13.7266 6.36816 12.6523C6.78564 12.7134 7.16162 12.7134 7.59131 12.6035C6.97785 12.4789 6.42645 12.1457 6.0308 11.6606C5.63515 11.1755 5.41964 10.5684 5.4209 9.94238V9.9082C5.77979 10.1108 6.20215 10.2354 6.64404 10.2524C6.27256 10.0049 5.96792 9.66946 5.75711 9.27595C5.5463 8.88244 5.43585 8.443 5.43555 7.99658C5.43555 7.49121 5.56738 7.02979 5.8042 6.62939C6.48511 7.46762 7.33479 8.15318 8.29801 8.64152C9.26123 9.12986 10.3164 9.41004 11.395 9.46387C11.0117 7.62061 12.3887 6.12891 14.0439 6.12891C14.8252 6.12891 15.5283 6.45605 16.0239 6.9834C16.6367 6.86865 17.2227 6.63916 17.7451 6.33154C17.5425 6.95898 17.1177 7.48877 16.5537 7.82324C17.1006 7.76465 17.6279 7.61328 18.1162 7.40088C17.7476 7.94287 17.2861 8.42383 16.7563 8.80713Z"
+                  fill="black"
+                />
+              </svg>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="information">
+        <div class="menu">
+          <span>Description</span>
+          <span>Additional Information</span>
+          <span>Reviews [5]</span>
+        </div>
+        <p>
+          Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn
+          portable active stereo speaker takes the unmistakable look and sound
+          of Marshall, unplugs the chords, and takes the show on the road.
+        </p>
+        <p>
+          Weighing in under 7 pounds, the Kilburn is a lightweight piece of
+          vintage styled engineering. Setting the bar as one of the loudest
+          speakers in its class, the Kilburn is a compact, stout-hearted hero
+          with a well-balanced audio which boasts a clear midrange and extended
+          highs for a sound that is both articulate and pronounced. The analogue
+          knobs allow you to fine tune the controls to your personal preferences
+          while the guitar-influenced leather strap enables easy and stylish
+          travel.
+        </p>
+        <img src="/images/p-detail-text.png" alt="" />
+      </div>
+      <div class="divider" style="margin-block: 20px"></div>
+      <h1
+        style="
+          font-family: Poppins;
+          font-size: 36px;
+          font-weight: 500;
+          line-height: 54px;
+          text-align: center;
+          margin-top: 40px;
+          color: rgba(0, 0, 0, 1);
+        "
+      >
+        Related Products
+      </h1>
+      <div class="pBoxes" style="margin-top: 80px">
+        <div class="pBox">
+          <img src="/images/p1.png" alt="" />
+          <div class="pTag red">
+            <p>-30%</p>
+          </div>
+          <div class="pBoxLayer">
+            <button class="commonBtn">Add to cart</button>
+            <div class="d-flex" style="gap: 13px">
+              <p>
+                <svg
+                  width="12"
+                  height="14"
+                  viewBox="0 0 12 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10 9.66671C9.47467 9.66671 9 9.87337 8.644 10.2047L3.94 7.46671C3.97333 7.31337 4 7.16004 4 7.00004C4 6.84004 3.97333 6.68671 3.94 6.53337L8.64 3.79337C9 4.12671 9.47333 4.33337 10 4.33337C11.1067 4.33337 12 3.44004 12 2.33337C12 1.22671 11.1067 0.333374 10 0.333374C8.89333 0.333374 8 1.22671 8 2.33337C8 2.49337 8.02667 2.64671 8.06 2.80004L3.36 5.54004C3 5.20671 2.52667 5.00004 2 5.00004C0.893333 5.00004 0 5.89337 0 7.00004C0 8.10671 0.893333 9.00004 2 9.00004C2.52667 9.00004 3 8.79337 3.36 8.46004L8.05867 11.2054C8.02112 11.3563 8.00143 11.5112 8 11.6667C8 12.0623 8.1173 12.4489 8.33706 12.7778C8.55682 13.1067 8.86918 13.3631 9.23463 13.5145C9.60009 13.6658 10.0022 13.7054 10.3902 13.6283C10.7781 13.5511 11.1345 13.3606 11.4142 13.0809C11.6939 12.8012 11.8844 12.4448 11.9616 12.0569C12.0387 11.6689 11.9991 11.2668 11.8478 10.9013C11.6964 10.5359 11.44 10.2235 11.1111 10.0038C10.7822 9.784 10.3956 9.66671 10 9.66671Z"
+                    fill="white"
+                  />
+                </svg>
+                Share
+              </p>
+              <p>
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.08004 6L10.08 7L13.52 3.55L10 0L9.00004 1L10.8 2.8H1.00004V4.2H10.82L9.08004 6ZM4.86004 8L3.86004 7L0.420044 10.5L3.91004 14L4.91004 13L3.10004 11.2H13V9.8H3.10004L4.86004 8Z"
+                    fill="white"
+                  />
+                </svg>
+                Compare
+              </p>
+              <p>
+                <svg
+                  width="16"
+                  height="15"
+                  viewBox="0 0 16 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.99973 13.0361C-5.33333 5.66669 3.99999 -2.33331 7.99973 2.72539C12 -2.33331 21.3333 5.66669 7.99973 13.0361Z"
+                    stroke="white"
+                    stroke-width="1.8"
+                  />
+                </svg>
+                Like
+              </p>
+            </div>
+          </div>
+          <div class="content">
+            <p
+              style="
+                font-family: Poppins;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 28.8px;
+                text-align: left;
+              "
+            >
+              Syltherine
+            </p>
+            <p
+              style="
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                text-align: left;
+                color: rgba(137, 137, 137, 1);
+              "
+            >
+              Stylish cafe chair
+            </p>
+            <div
+              class="d-flex"
+              style="justify-content: space-between; align-items: center"
+            >
+              <p
+                style="
+                  font-family: Poppins;
+                  font-size: 20px;
+                  font-weight: 600;
+                  line-height: 30px;
+                  text-align: left;
+                "
+              >
+                Rp 2.500.000
+              </p>
+              <p
+                style="
+                  font-family: Poppins;
+                  font-size: 16px;
+                  font-weight: 400;
+                  line-height: 24px;
+                  text-align: left;
+                  color: rgba(176, 176, 176, 1);
+                "
+              >
+                Rp 3.500.000
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="pBox">
+          <img src="/images/p1.png" alt="" />
+          <div class="pBoxLayer">
+            <button class="commonBtn">Add to cart</button>
+            <div class="d-flex" style="gap: 13px">
+              <p>
+                <svg
+                  width="12"
+                  height="14"
+                  viewBox="0 0 12 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10 9.66671C9.47467 9.66671 9 9.87337 8.644 10.2047L3.94 7.46671C3.97333 7.31337 4 7.16004 4 7.00004C4 6.84004 3.97333 6.68671 3.94 6.53337L8.64 3.79337C9 4.12671 9.47333 4.33337 10 4.33337C11.1067 4.33337 12 3.44004 12 2.33337C12 1.22671 11.1067 0.333374 10 0.333374C8.89333 0.333374 8 1.22671 8 2.33337C8 2.49337 8.02667 2.64671 8.06 2.80004L3.36 5.54004C3 5.20671 2.52667 5.00004 2 5.00004C0.893333 5.00004 0 5.89337 0 7.00004C0 8.10671 0.893333 9.00004 2 9.00004C2.52667 9.00004 3 8.79337 3.36 8.46004L8.05867 11.2054C8.02112 11.3563 8.00143 11.5112 8 11.6667C8 12.0623 8.1173 12.4489 8.33706 12.7778C8.55682 13.1067 8.86918 13.3631 9.23463 13.5145C9.60009 13.6658 10.0022 13.7054 10.3902 13.6283C10.7781 13.5511 11.1345 13.3606 11.4142 13.0809C11.6939 12.8012 11.8844 12.4448 11.9616 12.0569C12.0387 11.6689 11.9991 11.2668 11.8478 10.9013C11.6964 10.5359 11.44 10.2235 11.1111 10.0038C10.7822 9.784 10.3956 9.66671 10 9.66671Z"
+                    fill="white"
+                  />
+                </svg>
+                Share
+              </p>
+              <p>
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.08004 6L10.08 7L13.52 3.55L10 0L9.00004 1L10.8 2.8H1.00004V4.2H10.82L9.08004 6ZM4.86004 8L3.86004 7L0.420044 10.5L3.91004 14L4.91004 13L3.10004 11.2H13V9.8H3.10004L4.86004 8Z"
+                    fill="white"
+                  />
+                </svg>
+                Compare
+              </p>
+              <p>
+                <svg
+                  width="16"
+                  height="15"
+                  viewBox="0 0 16 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.99973 13.0361C-5.33333 5.66669 3.99999 -2.33331 7.99973 2.72539C12 -2.33331 21.3333 5.66669 7.99973 13.0361Z"
+                    stroke="white"
+                    stroke-width="1.8"
+                  />
+                </svg>
+                Like
+              </p>
+            </div>
+          </div>
+          <div class="content">
+            <p
+              style="
+                font-family: Poppins;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 28.8px;
+                text-align: left;
+              "
+            >
+              Leviosa
+            </p>
+            <p
+              style="
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                text-align: left;
+                color: rgba(137, 137, 137, 1);
+              "
+            >
+              Stylish cafe chair
+            </p>
+            <div
+              class="d-flex"
+              style="justify-content: space-between; align-items: center"
+            >
+              <p
+                style="
+                  font-family: Poppins;
+                  font-size: 20px;
+                  font-weight: 600;
+                  line-height: 30px;
+                  text-align: left;
+                "
+              >
+                Rp 2.500.000
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="pBox">
+          <img src="/images/p3.png" alt="" />
+          <div class="pTag red">
+            <p>-30%</p>
+          </div>
+          <div class="pBoxLayer">
+            <button class="commonBtn">Add to cart</button>
+            <div class="d-flex" style="gap: 13px">
+              <p>
+                <svg
+                  width="12"
+                  height="14"
+                  viewBox="0 0 12 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10 9.66671C9.47467 9.66671 9 9.87337 8.644 10.2047L3.94 7.46671C3.97333 7.31337 4 7.16004 4 7.00004C4 6.84004 3.97333 6.68671 3.94 6.53337L8.64 3.79337C9 4.12671 9.47333 4.33337 10 4.33337C11.1067 4.33337 12 3.44004 12 2.33337C12 1.22671 11.1067 0.333374 10 0.333374C8.89333 0.333374 8 1.22671 8 2.33337C8 2.49337 8.02667 2.64671 8.06 2.80004L3.36 5.54004C3 5.20671 2.52667 5.00004 2 5.00004C0.893333 5.00004 0 5.89337 0 7.00004C0 8.10671 0.893333 9.00004 2 9.00004C2.52667 9.00004 3 8.79337 3.36 8.46004L8.05867 11.2054C8.02112 11.3563 8.00143 11.5112 8 11.6667C8 12.0623 8.1173 12.4489 8.33706 12.7778C8.55682 13.1067 8.86918 13.3631 9.23463 13.5145C9.60009 13.6658 10.0022 13.7054 10.3902 13.6283C10.7781 13.5511 11.1345 13.3606 11.4142 13.0809C11.6939 12.8012 11.8844 12.4448 11.9616 12.0569C12.0387 11.6689 11.9991 11.2668 11.8478 10.9013C11.6964 10.5359 11.44 10.2235 11.1111 10.0038C10.7822 9.784 10.3956 9.66671 10 9.66671Z"
+                    fill="white"
+                  />
+                </svg>
+                Share
+              </p>
+              <p>
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.08004 6L10.08 7L13.52 3.55L10 0L9.00004 1L10.8 2.8H1.00004V4.2H10.82L9.08004 6ZM4.86004 8L3.86004 7L0.420044 10.5L3.91004 14L4.91004 13L3.10004 11.2H13V9.8H3.10004L4.86004 8Z"
+                    fill="white"
+                  />
+                </svg>
+                Compare
+              </p>
+              <p>
+                <svg
+                  width="16"
+                  height="15"
+                  viewBox="0 0 16 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.99973 13.0361C-5.33333 5.66669 3.99999 -2.33331 7.99973 2.72539C12 -2.33331 21.3333 5.66669 7.99973 13.0361Z"
+                    stroke="white"
+                    stroke-width="1.8"
+                  />
+                </svg>
+                Like
+              </p>
+            </div>
+          </div>
+          <div class="content">
+            <p
+              style="
+                font-family: Poppins;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 28.8px;
+                text-align: left;
+              "
+            >
+              Lolito
+            </p>
+            <p
+              style="
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                text-align: left;
+                color: rgba(137, 137, 137, 1);
+              "
+            >
+              Luxury big sofa
+            </p>
+            <div
+              class="d-flex"
+              style="justify-content: space-between; align-items: center"
+            >
+              <p
+                style="
+                  font-family: Poppins;
+                  font-size: 20px;
+                  font-weight: 600;
+                  line-height: 30px;
+                  text-align: left;
+                "
+              >
+                Rp 7.000.000
+              </p>
+              <p
+                style="
+                  font-family: Poppins;
+                  font-size: 16px;
+                  font-weight: 400;
+                  line-height: 24px;
+                  text-align: left;
+                  color: rgba(176, 176, 176, 1);
+                  text-decoration: line-through;
+                "
+              >
+                Rp 3.500.000
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="pBox">
+          <img src="/images/p4.png" alt="" />
+          <div class="pTag red">
+            <p>-30%</p>
+          </div>
+          <div class="pBoxLayer">
+            <button class="commonBtn">Add to cart</button>
+            <div class="d-flex" style="gap: 13px">
+              <p>
+                <svg
+                  width="12"
+                  height="14"
+                  viewBox="0 0 12 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10 9.66671C9.47467 9.66671 9 9.87337 8.644 10.2047L3.94 7.46671C3.97333 7.31337 4 7.16004 4 7.00004C4 6.84004 3.97333 6.68671 3.94 6.53337L8.64 3.79337C9 4.12671 9.47333 4.33337 10 4.33337C11.1067 4.33337 12 3.44004 12 2.33337C12 1.22671 11.1067 0.333374 10 0.333374C8.89333 0.333374 8 1.22671 8 2.33337C8 2.49337 8.02667 2.64671 8.06 2.80004L3.36 5.54004C3 5.20671 2.52667 5.00004 2 5.00004C0.893333 5.00004 0 5.89337 0 7.00004C0 8.10671 0.893333 9.00004 2 9.00004C2.52667 9.00004 3 8.79337 3.36 8.46004L8.05867 11.2054C8.02112 11.3563 8.00143 11.5112 8 11.6667C8 12.0623 8.1173 12.4489 8.33706 12.7778C8.55682 13.1067 8.86918 13.3631 9.23463 13.5145C9.60009 13.6658 10.0022 13.7054 10.3902 13.6283C10.7781 13.5511 11.1345 13.3606 11.4142 13.0809C11.6939 12.8012 11.8844 12.4448 11.9616 12.0569C12.0387 11.6689 11.9991 11.2668 11.8478 10.9013C11.6964 10.5359 11.44 10.2235 11.1111 10.0038C10.7822 9.784 10.3956 9.66671 10 9.66671Z"
+                    fill="white"
+                  />
+                </svg>
+                Share
+              </p>
+              <p>
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.08004 6L10.08 7L13.52 3.55L10 0L9.00004 1L10.8 2.8H1.00004V4.2H10.82L9.08004 6ZM4.86004 8L3.86004 7L0.420044 10.5L3.91004 14L4.91004 13L3.10004 11.2H13V9.8H3.10004L4.86004 8Z"
+                    fill="white"
+                  />
+                </svg>
+                Compare
+              </p>
+              <p>
+                <svg
+                  width="16"
+                  height="15"
+                  viewBox="0 0 16 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7.99973 13.0361C-5.33333 5.66669 3.99999 -2.33331 7.99973 2.72539C12 -2.33331 21.3333 5.66669 7.99973 13.0361Z"
+                    stroke="white"
+                    stroke-width="1.8"
+                  />
+                </svg>
+                Like
+              </p>
+            </div>
+          </div>
+          <div class="content">
+            <p
+              style="
+                font-family: Poppins;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 28.8px;
+                text-align: left;
+              "
+            >
+              Respira
+            </p>
+            <p
+              style="
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                text-align: left;
+                color: rgba(137, 137, 137, 1);
+              "
+            >
+              Outdoor bar table and stool
+            </p>
+            <div
+              class="d-flex"
+              style="justify-content: space-between; align-items: center"
+            >
+              <p
+                style="
+                  font-family: Poppins;
+                  font-size: 20px;
+                  font-weight: 600;
+                  line-height: 30px;
+                  text-align: left;
+                "
+              >
+                Rp 500.000
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="display: flex; justify-content: center; margin-block: 40px">
+        <a href="/shop.html">
+          <button
+            class="commonBtn"
+            style="
+              border: 1px solid var(--primary-color);
+              color: var(--primary-color);
+              padding: 20px 80px;
+              background-color: transparent;
+            "
+          >
+            Show More
+          </button>
+        </a>
+      </div>
+      <div id="footer"></div>
+    </div>
+  </body>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
+  <script src="/js/slide.js"></script>
+</html>

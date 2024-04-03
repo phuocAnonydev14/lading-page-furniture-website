@@ -1,0 +1,12 @@
+.checkoutWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkoutBox {
+  display: flex;
+  gap: 100px;
+  width: 1250px;
+  margin-top: 50px;
+}

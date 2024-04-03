@@ -1,0 +1,89 @@
+.breadcrumb {
+  align-items: center;
+  background-color: rgba(249, 241, 231, 1) !important;
+  padding: 20px 50px;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.pDetail {
+  margin-top: 50px;
+  display: flex;
+  gap: 100px;
+}
+
+.smallImg {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.smallImg img {
+  padding: 10px;
+  background-color: var(--secondary-background);
+  cursor: pointer;
+}
+
+.mainImg img {
+  width: 480px;
+  height: 450px;
+  background-color: var(--secondary-background);
+  object-fit: cover;
+  padding: 100px 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.calc {
+  padding: 10px;
+  border: 1px solid rgba(51, 50, 50, 0.705);
+  border-radius: 16px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.information {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.information .menu {
+  margin-block: 40px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.menu span {
+  font-family: Taviraj;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(153, 153, 153, 1);
+}
+
+.menu span:first-child {
+  color: rgb(0, 0, 0) !important;
+}
+
+.menu span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.information p {
+  width: 70%;
+  color: rgba(159, 159, 159, 1);
+  padding-bottom: 30px;
+}

@@ -1,0 +1,23 @@
+.filter{
+    transform: translateY(-5px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(249, 241, 231, 1);
+    padding: 20px 50px;
+}
+
+.pagi{
+    padding: 14px 20px;
+    background-color: rgba(249, 241, 231, 1);
+    font-weight: 500;
+}
+
+.archives{
+    margin-top: 40px;
+    background-color: var(--primary-background);
+    padding: 60px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

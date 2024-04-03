@@ -1,0 +1,12 @@
+.cart{
+    padding: 20px 50px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.cartHeader{
+    display: flex;
+    background-color: rgba(249, 241, 231, 1);
+    padding:10px 50px;
+    gap: 25px;
+    font-weight: 500;
+}
