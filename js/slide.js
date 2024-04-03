@@ -3,7 +3,8 @@
 const carts = $(".cartBtn");
 for (let cart of carts) {
   console.log({cart});
-  cart.onclick = function () {
+  cart.onclick = function (e) {
+    e.preventDefault()
     cart.innerHTML = "Added";
     cart.style.background = "rgba(184, 142, 47, 1)";
     cart.style.color = "#fff";
